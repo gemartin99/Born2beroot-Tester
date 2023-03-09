@@ -68,6 +68,11 @@ if [ $RES -gt 0 ];then
   else
         printf "${RED}[KO] ${DEF_COLOR}\n";
 fi
+RES=$(which lsof | wc -l)
+if [ $RES -eq 0 ];then
+  sudo apt-get update -qq -y > /dev/null 2>&1
+  sudo apt-get install -qq -y lsof > /dev/null 2>&1
+fi
 RES=$(sudo lsof -i -P -n | grep sshd | grep LISTEN | grep 4242 | wc -l)
 if [ $RES -gt 1 ];then
         printf "${GREEN}[OK] ${DEF_COLOR}\n";
