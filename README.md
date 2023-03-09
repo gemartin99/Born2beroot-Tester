@@ -4,6 +4,15 @@
 
 ## How to use 🛠
 
+In order to clone the repository and use the script we will have to install git on our virtual machine. We update the list of packages on the system.
+
+
+```sudo apt-get update```
+
+Once we have updated, we install the git package with the following command.
+
+```sudo apt-get install git```
+
 Clone this repository in your Debian virtual machine.
 
 ```git clone https://github.com/gemartin99/Born2beroot-Tester.git```
