@@ -27,6 +27,14 @@ Run the script.
 
 # I hope you liked and helped! 😁
 
+# Author ✍🏼
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/gemartin99/"><img src="https://avatars.githubusercontent.com/u/66915274?v=4" width="100px;" alt="100px"/><br /><sub><b>gemartin</b></sub></a><br /><a href="https://profile.intra.42.fr/users/gemartin" title="Intra 42"><img src="https://img.shields.io/badge/Barcelona-FFFFFF?style=plastic&logo=42&logoColor=000000" alt="Intra 42"/></a></td>
+  </tr>
+</table>
+
 # Maybe it would interest you!
 
 ### - Born2beroot project tutorial 🖥
